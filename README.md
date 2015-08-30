@@ -13,4 +13,8 @@ Based on the `BOX_NAME` environment the following guest is created
  - centos7
  - windows7
 
+Note
+----
+Puppet rabbitmq module seems to be not very stable.
+Serverspec requires rspec `3.3.0`. Remove all older revisions or `rspec-expectations` from the host
 
