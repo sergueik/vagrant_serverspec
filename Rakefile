@@ -10,7 +10,7 @@ namespace :spec do
     next unless File.directory?(dir)
     targets << File.basename(dir)
   end
-
+  # modified to avoid cyclic depenedncy
   task :all     => targets
   targets.each do |target|
     desc "Run serverspec tests to #{target}"

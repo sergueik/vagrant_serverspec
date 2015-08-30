@@ -17,6 +17,8 @@ end
 
 host = ENV['TARGET_HOST']
 
+p "Running spectests on #{host}"
+
 `vagrant up #{host}`
 
 config = Tempfile.new('', Dir.tmpdir)
