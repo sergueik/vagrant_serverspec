@@ -18,8 +18,8 @@ fi
 
 echo "Configuring PuppetLabs package ${PACKAGE_URL} locally"
 PACKAGE_LOCAL=$(mktemp)
-wget --output-document=${PACKAGE_LOCAL} ${PACKAGE_URL} 2>/dev/null
-dpkg -i ${PACKAGE_LOCAL} >/dev/null
+wget --output-document=${PACKAGE_LOCAL} ${PACKAGE_URL}
+dpkg -i ${PACKAGE_LOCAL}
 apt-get update >/dev/null
 
 echo 'Installing Puppet'
