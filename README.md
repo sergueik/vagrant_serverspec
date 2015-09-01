@@ -19,3 +19,10 @@ Note
 Puppet rabbitmq module seems to be not very stable. Currently the only working configuration is with trusty64 pupperlabs-rabbitmq 4.0.0 and puppet 3.8.1 
 Serverspec requires rspec `3.3.0`. Remove all older revisions or `rspec-expectations` from the host
 
+
+Windows
+-------
+Work in progress.
+
+ - [Windows Serverspec Support](https://github.com/mizzy/serverspec/blob/master/WINDOWS_SUPPORT.md)
+ - [stackoverflow](http://stackoverflow.com/questions/26875234/first-should-be-installed-in-test-always-fails-on-windows)
